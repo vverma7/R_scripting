@@ -1,0 +1,26 @@
+# Define the function hello()
+hello <- function()
+{
+print("Hi there!")
+return (TRUE)
+}
+
+
+# Call the function hello()
+hello()
+
+# Define the function my_filter()
+my_filter <- function(arg1)
+{
+if (arg1>=0){
+return (arg1)
+}
+
+else {
+return (NULL)
+}
+}
+
+# Call the function my_filter() twice
+ my_filter(5)
+  my_filter(-5)
